@@ -4050,7 +4050,7 @@ input, select, textarea {
   background-color: #F0A637;
   border: none;
   color: white;
-  padding: 0px 25px;
+  /*padding: 0px 25px;*/
   text-align: center;
   text-decoration: none;
   font-size: 18px;

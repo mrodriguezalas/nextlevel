@@ -2412,7 +2412,7 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background-color: transparent;
+		background-color: #F0A637;
 		border-radius: 3px;
 		border: 0;
 		box-shadow: inset 0 0 0 2px #2B343D;
@@ -4045,16 +4045,6 @@ input, select, textarea {
   font-size: 20px;
 }
 
-/* The "Sign Up" button */
-.button {
-  background-color: #F0A637;
-  border: none;
-  color: white;
-  /*padding: 0px 25px;*/
-  text-align: center;
-  text-decoration: none;
-  font-size: 18px;
-}
 
 /* Change the width of the three columns to 100%
 (to stack horizontally on small screens) */

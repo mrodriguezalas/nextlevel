@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html style="background:#F0A637" lang="en" dir="ltr">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/punycode/1.4.1/punycode.min.js"></script>
 <script src="https://cdn.jotfor.ms/js/vendor/jquery-1.8.0.min.js?v=3.3.21222" type="text/javascript"></script>
 <script src="https://cdn.jotfor.ms/js/vendor/maskedinput.min.js?v=3.3.21222" type="text/javascript"></script>
@@ -488,7 +490,7 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"formularioDe","qid":"1","text":"For
       font-size: 16px
     }
 
-    .supernova .form-all, .form-all {
+    .form-all, .form-all {
       background-color: #ffffff;
     }
 
@@ -514,10 +516,11 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"formularioDe","qid":"1","text":"For
     }
 
     .supernova {
-      background-color: #F0A637;
+      background-color: #F0A637 !important;
     }
     .supernova body {
-      background: transparent;
+      background: #F0A637 !important;
+      background-color: #F0A637 !important;
     }
 
     .form-textbox,
@@ -531,10 +534,10 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"formularioDe","qid":"1","text":"For
     }
 
     .supernova {
-      background-image: none;
+      background-image: #F0A637;
     }
     #stage {
-      background-image: none;
+      background-image: #F0A637;
     }
 
     .form-all {
@@ -577,9 +580,13 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"formularioDe","qid":"1","text":"For
 
       }
     /* Injected CSS Code */
+    .html{
+      background: #F0A637 !important;
+      background-color: #F0A637 !important;
+    }
 </style>
 
-<form class="jotform-form" action="https://submit.jotform.com/submit/202978080791868/" method="post" name="form_202978080791868" id="202978080791868" accept-charset="utf-8" autocomplete="on">
+<form style="background:#F0A637" class="jotform-form" action="https://submit.jotform.com/submit/202978080791868/" method="post" name="form_202978080791868" id="202978080791868" accept-charset="utf-8" autocomplete="on">
   <input type="hidden" name="formID" value="202978080791868" />
   <input type="hidden" id="JWTContainer" value="" />
   <input type="hidden" id="cardinalOrderNumber" value="" />
@@ -603,7 +610,7 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"formularioDe","qid":"1","text":"For
       <img class="formLogoImg" src="https://www.jotform.com/uploads/guest_47d2a1caad990393/form_files/banner.5f94d5634090f5.55675269.jpg" height="240" width="240">
     </div>
     <style>
-      .formLogoWrapper { display:inline-block; position: absolute; width: 100%;} .form-all:before { background: none !important;} .formLogoWrapper.Center { top: -250px; text-align: center;}
+      .formLogoWrapper { display:inline-block; position: absolute; width: 100%;} .form-all:before { background: #F0A637 !important;} .formLogoWrapper.Center { top: -250px; text-align: center;}
     </style>
     <ul class="form-section page-section">
       <li id="cid_1" class="form-input-wide" data-type="control_head">
@@ -1148,6 +1155,7 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"formularioDe","qid":"1","text":"For
       </li>
     </ul>
   </div>
+<!--
   <script>
   JotForm.showJotFormPowered = "new_footer";
   </script>
@@ -1178,3 +1186,5 @@ for (var i = 0; i < all_spc.length; i++)
 </form>
 <script src="https://cdn.jotfor.ms//js/vendor/smoothscroll.min.js?v=3.3.21222"></script>
 <script src="https://cdn.jotfor.ms//js/errorNavigation.js?v=3.3.21222"></script>
+-->
+</html>
